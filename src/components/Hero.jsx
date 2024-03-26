@@ -2,7 +2,7 @@ import React from 'react'
 import './css/Hero.css'
 import photo from './assets/photo.jpg'
 
-export default function Hero() {
+const Hero = () => {
   return (
     <div className="heroBg w-[100vw] h-[100vh] py-24 flex items-center justify-evenly">
       <div className="leftContent">
@@ -15,3 +15,5 @@ export default function Hero() {
     </div>
   )
 }
+
+export default Hero
