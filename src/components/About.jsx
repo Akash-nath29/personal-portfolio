@@ -4,15 +4,15 @@ import AboutPhoto from "./assets/About-photo.jpg";
 
 const About = () => {
   return (
-    <div className="about-container w-full h-full flex flex-col md:flex-row items-center justify-evenly py-[50px] px-5" id="about">
+    <div className="about-container w-full h-full flex flex-col md:flex-row items-center justify-evenly py-[50px] md:px-10 px-5" id="about">
         <div className="leftContent w-[300px] md:w-1/2">
           <img
             src={AboutPhoto}
             alt=""
-            className="aboutImage w-full md:w-[500px] rounded"
+            className="aboutImage w-full md:w-[500px] rounded cursor-pointer"
           />
         </div>
-        <div className="rightContent z-2 w-full md:w-1/2 justify-center items-center">
+        <div className="rightContent z-2 w-full md:w-1/2 justify-center items-center md:px-10 px-5">
           <div className="intro text-left">
             <h1 className="text-5xl font-bold text-black">About Me</h1>
             <br />
