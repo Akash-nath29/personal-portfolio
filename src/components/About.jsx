@@ -4,16 +4,16 @@ import AboutPhoto from "./assets/About-photo.jpg";
 
 const About = () => {
   return (
-    <div className="about-container w-full h-full flex items-center justify-evenly py-[50px] px-5">
-        <div className="leftContent w-1/2">
+    <div className="about-container w-full h-full flex flex-col md:flex-row items-center justify-evenly py-[50px] px-5" id="about">
+        <div className="leftContent w-[300px] md:w-1/2">
           <img
             src={AboutPhoto}
             alt=""
-            className="aboutImage w-[500px] rounded"
+            className="aboutImage w-full md:w-[500px] rounded"
           />
         </div>
-        <div className="rightContent w-1/2">
-          <div className="intro">
+        <div className="rightContent z-2 w-full md:w-1/2 justify-center items-center">
+          <div className="intro text-left">
             <h1 className="text-5xl font-bold text-black">About Me</h1>
             <br />
             <p className="text-black">
@@ -23,8 +23,8 @@ const About = () => {
           <br />
           <br />
           <br />
-          <div className="education">
-            <h1 className="text-5xl font-bold text-black">Education</h1>
+          <div className="education text-right">
+            <h1 className="text-3xl font-bold text-black">Education</h1>
             <br />
             <p className="text-black">
               Completed my schooling from{" "}
@@ -40,11 +40,11 @@ const About = () => {
             <br />
             <br />
             <br />
-            <div className="timeline px-5">
+            <div className="timeline px-5 text-left">
               <ol class="items-center sm:flex w-full">
                 <li class="relative mb-6 sm:mb-0">
                   <div class="flex items-center">
-                    <div class="z-10 flex items-center justify-center w-6 h-6 bg-yellow-400 rounded-full ring-0 ring-black sm:ring-8 shrink-0">
+                    <div class="z-2 flex items-center justify-center w-6 h-6 bg-yellow-400 rounded-full ring-0 ring-black sm:ring-8 shrink-0">
                       <svg
                         class="w-2.5 h-2.5 text-black"
                         aria-hidden="true"
@@ -71,7 +71,7 @@ const About = () => {
                 </li>
                 <li class="relative mb-6 sm:mb-0">
                   <div class="flex items-center">
-                    <div class="z-10 flex items-center justify-center w-6 h-6 bg-yellow-400 rounded-full ring-0 ring-black sm:ring-8 shrink-0">
+                    <div class="z-2 flex items-center justify-center w-6 h-6 bg-yellow-400 rounded-full ring-0 ring-black sm:ring-8 shrink-0">
                       <svg
                         class="w-2.5 h-2.5 text-black"
                         aria-hidden="true"
@@ -98,7 +98,7 @@ const About = () => {
                 </li>
                 <li class="relative mb-6 sm:mb-0">
                   <div class="flex items-center">
-                    <div class="z-10 flex items-center justify-center w-6 h-6 bg-yellow-400 rounded-full ring-0 ring-black sm:ring-8 shrink-0">
+                    <div class="z-2 flex items-center justify-center w-6 h-6 bg-yellow-400 rounded-full ring-0 ring-black sm:ring-8 shrink-0">
                       <svg
                         class="w-2.5 h-2.5 text-black"
                         aria-hidden="true"
