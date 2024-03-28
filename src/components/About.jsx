@@ -5,7 +5,7 @@ import AboutPhoto from "./assets/About-photo.jpg";
 const About = () => {
   return (
     <div className="about-container w-full h-full flex flex-col md:flex-row items-center justify-evenly py-[50px] md:px-10 px-5" id="about">
-        <div className="leftContent w-[300px] md:w-1/2">
+        <div className="leftContent w-[300px] md:w-1/2 items-center justify-center">
           <img
             src={AboutPhoto}
             alt=""
