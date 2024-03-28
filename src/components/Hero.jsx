@@ -5,11 +5,11 @@ import photo from "./assets/photo.jpg";
 const Hero = () => {
   return (
     <div
-      className="heroBg md:w-[100vw] h-[100vh] py-24 flex items-center justify-evenly md:flex-row flex-col-reverse"
+      className="heroBg md:w-[100vw] h-[100vh] py-30 flex items-center justify-evenly md:flex-row flex-col-reverse"
       id="home"
     >
       <div className="leftContent w-full md:w-1/2 md:p-0 px-10 items-center justify-center md:my-0 my-5">
-        <h1 className="text-3xl md:text-5xl font-bold">
+        <h1 className="text-3xl md:text-7xl font-bold">
           Hi, I am Akash <span id="helloIcon">👋</span>
         </h1>
         <p className="mt-4 text-sm md:text-lg">
