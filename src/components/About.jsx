@@ -14,7 +14,7 @@ const About = () => {
         </div>
         <div className="rightContent z-2 w-full md:w-1/2 justify-center items-center md:px-10 px-5">
           <div className="intro text-left">
-            <h1 className="text-4xl md:text-7xl font-bold text-black">About Me</h1>
+            <h1 className="text-7xl md:text-7xl font-bold text-black">About Me</h1>
             <br />
             <p className="text-black">
             Hey there! I'm Akash Nath, a full-stack developer with a knack for backend development. Currently an engineering student at JIS College of Engineering, Kalyani, I'm passionate about crafting efficient solutions to real-world problems. I'm also deeply interested in AI and ML, having created basic models and always eager to explore more. Let's innovate together!
