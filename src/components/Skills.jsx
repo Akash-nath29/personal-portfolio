@@ -15,7 +15,7 @@ const Skills = () => {
         <br />
         <div className="btnSet flex items-center justify-evenly w-full gap-2">
           <button className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold px-5 py-2 duration-700">Download CV</button>
-          <button className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold px-5 py-2 duration-700">Hire Me</button>
+          <a href="https://www.upwork.com/freelancers/~01e0724608edcc944d"><button className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold px-5 py-2 duration-700">Hire Me</button></a>
         </div>
       </div>
       <br />

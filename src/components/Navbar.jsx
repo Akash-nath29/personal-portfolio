@@ -1,18 +1,15 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import "./css/Navbar.css";
 
 const Navbar = () => {
-  let [open, setOpen] = useState(false);
-  const scrollToSection = (sectionId) => {
-    const section = document.getElementById(sectionId);
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
-    }
-  };
   return (
     <div className="navbar md:flex justify-between p-5 align-center my-0 px-9">
       <div className="nav-brand flex text-2xl justify-between md:justify-center items-center h-full">
-        <a href="#" onClick={() => scrollToSection("home")} className="flex justify-center items-center h-full">
+        <a
+          href="#"
+          onClick={() => scrollToSection("home")}
+          className="flex justify-center items-center h-full"
+        >
           <h1>akash.nath()</h1>
         </a>
         <svg
@@ -30,18 +27,30 @@ const Navbar = () => {
           />
         </svg>
       </div>
-      <ul className={`navLinks my-5 md:my-0 md:flex flex-col md:flex-row justify-evenly space-x-2 md:space-x-0 gap-10 p-2 duration:1000 ${open ? "flex":"hidden"}`}>
+      <ul
+        className={`navLinks my-5 md:my-0 md:flex flex-col md:flex-row justify-evenly space-x-2 md:space-x-0 gap-10 p-2 duration:1000 ${
+          open ? "flex" : "hidden"
+        }`}
+      >
         <li className="nav-link">
-          <a href="#" onClick={() => scrollToSection("home")}>Home</a>
+          <a href="#home">
+            Home
+          </a>
         </li>
         <li className="nav-link">
-          <a href="#" onClick={() => scrollToSection("about")}>About</a>
+          <a href="#about">
+            About
+          </a>
         </li>
         <li className="nav-link">
-          <a href="#" onClick={() => scrollToSection("skills")}>Skills</a>
+          <a href="#skills">
+            Skills
+          </a>
         </li>
         <li className="nav-link">
-          <a href="#" onClick={() => scrollToSection("projects")}>Projects</a>
+          <a href="#projects">
+            Projects
+          </a>
         </li>
         <li className="nav-link">
           <a href="#">Certifications</a>
@@ -50,10 +59,12 @@ const Navbar = () => {
           <a href="#">Contact</a>
         </li>
       </ul>
-      <div className={`sponser-btn md:block ${open ? "block":"hidden"}`}>
-        <button className="py-2 px-5 flex justify-center align-center bg-yellow-400 hover:bg-yellow-500 text-black font-bold rounded">
-          Sponser
-        </button>
+      <div className={`sponser-btn md:block ${open ? "block" : "hidden"}`}>
+        <a href="https://patreon.com/AkashNath">
+          <button className="py-2 px-5 flex justify-center align-center bg-yellow-400 hover:bg-yellow-500 text-black font-bold rounded">
+            Sponser
+          </button>
+        </a>
       </div>
     </div>
   );

@@ -8,7 +8,7 @@ import "./css/Projects.css";
 
 const Projects = () => {
   return (
-    <div className="projectsBg grid md:grid-cols-3 grid-cols-1 gap-2 w-full place-items-center py-5 px-5" id='projects'>
+    <div className="projectsBg grid md:grid-cols-3 grid-cols-1 gap-5 w-full place-items-center py-15 px-5" id='projects'>
       <div className="intro ">
         <h1 className="text-7xl text-black font-bold">My Projects</h1>
         <br />
@@ -16,7 +16,7 @@ const Projects = () => {
         <br />
         <a className="text-yellow-400 hover:text-white" href="https://github.com/Akash-nath29?tab=repositories"><button className="bg-black text-yellow-400 rounded px-5 py-3 hover:text-white">See More!!</button></a>
       </div>
-      <div className="card max-w-sm border border-black rounded-lg shadow">
+      <div className="card max-w-sm rounded-lg">
         <a href="#">
           <img className="rounded-t-lg" src={noteswallah} alt="" />
         </a>
@@ -52,7 +52,7 @@ const Projects = () => {
           </a>
         </div>
       </div>
-      <div className="card max-w-sm border border-gray-200 rounded-lg shadow">
+      <div className="card max-w-sm rounded-lg">
         <a href="#">
           <img className="rounded-t-lg" src={chirpApp} alt="" />
         </a>
@@ -88,7 +88,7 @@ const Projects = () => {
           </a>
         </div>
       </div>
-      <div className="card max-w-sm border border-gray-200 rounded-lg shadow">
+      <div className="card max-w-sm rounded-lg">
         <a href="#">
           <img className="rounded-t-lg" src={inscribe} alt="" />
         </a>
@@ -124,7 +124,7 @@ const Projects = () => {
           </a>
         </div>
       </div>
-      <div className="card max-w-sm border border-gray-200 rounded-lg shadow">
+      <div className="card max-w-sm rounded-lg">
         <a href="#">
           <img className="rounded-t-lg" src={pennyWise} alt="" />
         </a>
@@ -160,7 +160,7 @@ const Projects = () => {
           </a>
         </div>
       </div>
-      <div className="card max-w-sm border border-gray-200 rounded-lg shadow">
+      <div className="card max-w-sm rounded-lg">
         <a href="#">
           <img className="rounded-t-lg" src={syncz} alt="" />
         </a>

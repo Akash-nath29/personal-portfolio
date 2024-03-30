@@ -5,4 +5,11 @@
 
 .card {
     background-color: #070707;
+    border: 3px solid rgb(255, 234, 0);
+    box-shadow: 20px 20px 0px #070707;
+    transition: 0.4s;
+}
+
+.card:hover {
+    box-shadow: 15px 15px 0px #070707;
 }
