@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./css/Navbar.css";
 
 const Navbar = () => {
+  let [open, setOpen] = useState(false);
   return (
     <div className="navbar md:flex justify-between p-5 align-center my-0 px-9">
       <div className="nav-brand flex text-2xl justify-between md:justify-center items-center h-full">
