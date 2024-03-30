@@ -4,7 +4,7 @@ import "./css/Skills.css";
 
 const SkillStats = () => {
   return (
-    <div className="skillsStats flex flex-col gap-2 my-20">
+    <div className="skillsStats flex flex-col gap-2 my-20 w-full">
       <h3>HTML</h3>
       <ProgressBar completed={95} />
       <h3>CSS</h3>

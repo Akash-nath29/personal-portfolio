@@ -12,7 +12,7 @@ import "./css/Skills.css";
 
 export default function SkillGallery() {
   return (
-    <div class="grid grid-cols-4 gap-5 h-1/2 w-full place-items-center">
+    <div class="grid grid-cols-3 gap-5 h-1/2 w-full place-items-center">
       <div class="grid gap-4">
         <div>
           <img

@@ -1,9 +1,0 @@
-export const Flask = require('./flask.png');
-export const Bootstrap = require('./bootstrap.png');
-export const Css = require('./css.webp');
-export const Django = require('./django.png');
-export const Git = require('./git.png');
-export const Html = require('./html.png');
-export const Javascript = require('./js.png');
-export const Python = require('./py.png');
-export const Tailwind = require('./tailwind.png');
