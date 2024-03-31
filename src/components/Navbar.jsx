@@ -57,7 +57,7 @@ const Navbar = () => {
           <a href="#certificates">Certifications</a>
         </li>
         <li className="nav-link">
-          <a href="#">Contact</a>
+          <a href="#contacts">Contact</a>
         </li>
       </ul>
       <div className={`sponser-btn md:block ${open ? "block" : "hidden"}`}>
