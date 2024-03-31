@@ -83,8 +83,8 @@ const Contact = () => {
           action="https://formsubmit.co/devakash2905@gmail.com"
           method="POST"
         >
-          <input type="text" name="_honey" className="none" />
-          <input type="hidden" name="_captcha" value="false" className="none" />
+          <input type="text" name="_honey" className="hidden" />
+          <input type="hidden" name="_captcha" value="false" className="hidden" />
           <input type="text" name="name" placeholder="Enter Name" required />
           <input type="email" name="email" placeholder="Enter Email" required />
           <textarea
