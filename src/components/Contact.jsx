@@ -3,7 +3,10 @@ import "./css/Contact.css";
 
 const Contact = () => {
   return (
-    <div className="contactBg flex flex-col md:flex-row items-center justify-evenly w-full min-h-[70vh]" id="contacts">
+    <div
+      className="contactBg flex flex-col md:flex-row items-center justify-evenly w-full min-h-[70vh]"
+      id="contacts"
+    >
       <div className="leftContent  px-5 md:px-20 py-20 w-full md:w-3/4 text-black">
         <h1 className="text-7xl font-bold text-black">Get In Touch</h1>
         <br />
@@ -80,6 +83,8 @@ const Contact = () => {
           action="https://formsubmit.co/devakash2905@gmail.com"
           method="POST"
         >
+          <input type="text" name="_honey" className="none" />
+          <input type="hidden" name="_captcha" value="false" />
           <input type="text" name="name" placeholder="Enter Name" required />
           <input type="email" name="email" placeholder="Enter Email" required />
           <textarea
