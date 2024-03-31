@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="mb-6 md:mb-0">
             <a href="https://akashnath.netlify.app" className="flex items-center">
               <span className="self-center text-3xl font-semibold whitespace-nowrap dark:text-white">
-                PortFolio
+                Portfolio
               </span>
             </a>
             <br />
