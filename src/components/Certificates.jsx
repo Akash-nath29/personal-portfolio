@@ -7,7 +7,7 @@ import apiTestingKeploy from "./assets/certificates/apiTestingKeploy.jpg";
 
 const Certificates = () => {
   return (
-    <div className="certificateBg w-full flex flex-col-reverse md:flex-row gap-2 px-5 py-20 items-center justify-center">
+    <div className="certificateBg w-full flex flex-col-reverse md:flex-row gap-2 px-5 py-20 items-center justify-center" id='certificates'>
       <div className="certificates grid md:grid-cols-2 grid-cols-1 gap-2 md:w-3/4 w-full">
         <div className="max-w-sm rounded overflow-hidden shadow-lg">
           <img
@@ -72,7 +72,7 @@ const Certificates = () => {
           </div>
         </div>
       </div>
-      <div className="intro w-full">
+      <div className="intro w-full items-start justify-start flex flex-col md:w-1/2">
         <h1 className="text-6xl font-bold text-yellow-300">My Certificates</h1>
         <br />
         <p className="text-white text-lg">
