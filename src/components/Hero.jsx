@@ -1,6 +1,6 @@
 import React from "react";
 import "./css/Hero.css";
-import photo from "./assets/photo.jpg";
+import photo from "./assets/About-photo.webp";
 
 const Hero = () => {
   return (
@@ -13,7 +13,7 @@ const Hero = () => {
           Hi, I am Akash <span id="helloIcon">👋</span>
         </h1>
         <p className="mt-4 text-sm md:text-lg">
-          Fullstack developer, AI-ML enthusiast, Engineering Student
+          Freelancer, Fullstack developer, Engineering Student
         </p>
         <p className="w-full md:w-1/2 flex justify-evenly items-center my-5">
           <a href="https://twitter.com/akash_nath29">

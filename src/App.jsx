@@ -7,6 +7,7 @@ import Projects from './components/Projects'
 import Certificates from './components/Certificates'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import CurrentWork from './components/CurrentWork'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
+      <CurrentWork />
       <Skills />
       <Projects />
       <Certificates />

@@ -1,6 +1,6 @@
 import React from "react";
 import "./css/About.css";
-import AboutPhoto from "./assets/About-photo.jpg";
+import AboutPhoto from "./assets/me.webp";
 
 const About = () => {
   return (

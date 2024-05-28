@@ -43,6 +43,11 @@ const Navbar = () => {
           </a>
         </li>
         <li className="nav-link">
+          <a href="#currentWork">
+            Current Position
+          </a>
+        </li>
+        <li className="nav-link">
           <a href="#skills">
             Skills
           </a>
